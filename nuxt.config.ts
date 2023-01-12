@@ -7,15 +7,7 @@ export default defineNuxtConfig({
                 documentDriven: true
             }
         ],
-        [
-            '@nuxtjs/robots',
-            {
-                UserAgent: '*',
-                Disallow: '/'
-            }
-        ],
         '@nuxtjs/plausible',
-        ['@nuxt/image-edge', { staticFilename: '[publicPath]/images/[name]-[hash][ext]' }],
         [
             '@nuxtjs/tailwindcss',
             {
@@ -30,7 +22,11 @@ export default defineNuxtConfig({
                             roboto: ['"Roboto"', 'sans-serif']
                         }
                     },
-                    plugins: [require('@tailwindcss/forms'), require('@tailwindcss/line-clamp')]
+                    plugins: [
+                        require('@tailwindcss/forms'),
+                        require('@tailwindcss/line-clamp'),
+                        require('@tailwindcss/typography')
+                    ]
                 },
                 injectPosition: 0,
                 viewer: true

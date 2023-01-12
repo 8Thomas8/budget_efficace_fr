@@ -1,5 +1,0 @@
----
-layout: legal
----
-
-# Mentions légales
