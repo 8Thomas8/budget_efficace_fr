@@ -3,8 +3,8 @@ layout: 'blog-article'
 title: 'Comment établir un budget efficace avec des économies possibles'
 description: 'Apprenez à établir un budget efficace pour économiser maximum 50% de vos revenus grâce à nos astuces et conseils. Comprenez vos revenus et vos dépenses, identifiez vos dépenses inutiles et mettez en place des objectifs sur une épargne réalisables. Suivez et ajustez votre budget régulièrement avec nos exemples de montants atteignables.'
 image:
-    src: /images/blog/budget/un-budget-efficace-avec-des-economies-possibles.jpg
-    alt: 'Comment établir un budget efficace avec des économies possibles'
+src: /test.png
+alt: 'Test image'
 createdAt: 2018/12/22
 updatedAt: 2019/01/24
 author: Jerome
