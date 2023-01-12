@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const data = await queryContent('/blog/category1').find()
+const data = await queryContent('/blog/budget').find()
 </script>
 
 <template>
