@@ -43,17 +43,17 @@ const returnLastArticles = () => {
                 </p>
             </div>
 
-            <div class="mx-auto mt-12 grid max-w-lg gap-5 lg:gap-8 lg:max-w-none lg:grid-cols-3">
+            <div class="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3 lg:gap-8">
                 <template v-for="article in returnLastArticles()">
                     <CardsBlog :article="article" />
                 </template>
             </div>
-            <div class="mt-10 sm:flex justify-center">
+            <div class="mt-10 justify-center sm:flex">
                 <div class="rounded-md shadow">
                     <nuxt-link
                         to="/blog"
                         alt="Voir tous les articles"
-                        class="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 md:py-4 md:px-10 md:text-lg"
+                        class="escape-link flex w-full items-center justify-center rounded-md bg-primary-base px-8 py-3 text-base font-medium text-white ease-in-out duration-150 hover:bg-secondary-base md:px-10 md:py-4 md:text-lg"
                         >Voir tous les articles
                     </nuxt-link>
                 </div>

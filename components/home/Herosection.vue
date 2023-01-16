@@ -6,7 +6,7 @@
                     <h1
                         class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
                         <span class="block xl:inline">Data to enrich your</span>
-                        <span class="block text-indigo-600 xl:inline"> online business</span>
+                        <span class="block text-primary-base xl:inline"> online business</span>
                     </h1>
                     <p class="mx-auto mt-3 max-w-md text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
                         Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit
@@ -17,7 +17,7 @@
                             <nuxt-link
                                 to="/blog"
                                 alt="Voir tous les articles"
-                                class="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 md:py-4 md:px-10 md:text-lg"
+                                class="flex w-full items-center justify-center rounded-md border border-transparent ease-in-out duration-150 bg-primary-base px-8 py-3 text-base font-medium text-white hover:bg-secondary-base md:px-10 md:py-4 md:text-lg escape-link"
                                 >Voir tous les articles</nuxt-link
                             >
                         </div>
