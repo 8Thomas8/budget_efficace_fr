@@ -1,33 +1,51 @@
+<script setup lang="ts">
+const { page } = useContent()
+</script>
+
 <template>
     <div>
         <NavBar />
 
         <div class="space-y-6 lg:space-y-8">
-            <div class="relative bg-gray-50 px-6 pt-16 pb-20 lg:px-8 lg:pt-24 lg:pb-28">
-                <div class="mx-auto max-w-7xl">
-                    <!-- Main content -->
-                    <div class="flex flex-1 space-x-12 items-stretch overflow-hidden">
+            <div class="relative bg-gray-50 px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28">
+                <div class="mx-auto max-w-7xl space-y-8">
+                    <div class="mx-auto max-w-screen-lg prose">
+                        <h1 class="text-center">
+                            {{ page.title }}
+                        </h1>
+                        <p class="mt-3 text-center text-gray-500">
+                            Retrouvez sur cette page tous les articles
+                            {{ page.chapeau }}.
+                        </p>
+                    </div>
+
+                    <div class="flex flex-1 items-stretch overflow-hidden space-x-12">
                         <main class="flex-1 overflow-y-auto">
-                            <!-- Primary column -->
                             <section
                                 aria-labelledby="primary-heading"
                                 class="flex h-full min-w-0 flex-1 flex-col lg:order-last">
-                                <!-- Your content -->
-                                <div class="prose max-w-none">
+                                <div class="max-h-[360px]">
+                                    <img
+                                        :src="page.image.src"
+                                        :alt="page.image.alt"
+                                        class="h-full w-full rounded-md object-cover object-bottom" />
+                                </div>
+                                <div class="max-w-none prose">
                                     <slot />
                                 </div>
                             </section>
                         </main>
 
-                        <!-- Secondary column (hidden on smaller screens) -->
                         <aside class="hidden w-96 overflow-y-auto lg:block">
-                            <!-- Your content -->
+                            <div>
+                                <LazyAsideLastArticles />
+                            </div>
                         </aside>
                     </div>
                 </div>
             </div>
 
-            <Footer />
+            <LazyFooter />
         </div>
     </div>
 </template>
