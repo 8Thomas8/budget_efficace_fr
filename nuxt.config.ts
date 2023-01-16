@@ -17,9 +17,23 @@ export default defineNuxtConfig({
                 config: {
                     content: [],
                     theme: {
-                        fontFamily: {
-                            poppins: ['"Poppins"', 'sans-serif'],
-                            roboto: ['"Roboto"', 'sans-serif']
+                        extend: {
+                            fontFamily: {
+                                poppins: ['"Poppins"', 'sans-serif'],
+                                roboto: ['"Roboto"', 'sans-serif']
+                            },
+                            colors: {
+                                primary: {
+                                    base: '#7E81FF'
+                                },
+                                secondary: {
+                                    base: '#1E293B'
+                                },
+                                gray: {
+                                    base: '#B8BFC6',
+                                    light: '#FFFFFF'
+                                }
+                            }
                         }
                     },
                     plugins: [
