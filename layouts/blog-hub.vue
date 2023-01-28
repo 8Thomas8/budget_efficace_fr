@@ -1,31 +1,61 @@
 <script setup lang="ts">
-const articlesArray = await queryContent('/blog').find()
+import { Ref } from 'vue'
+import { ParsedContent } from '@nuxt/content/dist/runtime/types'
+
+const routing = ref(useRoute().params.slug)
+const pageNo = ref(1)
 const { page } = useContent()
-const sortArticles = () => {
-    let articles = articlesArray.filter(e => !['/blog', '/blog/budget'].includes(e._path as string))
 
-    articles.sort((a, b) => {
-        let dateA = new Date(a.createdAt)
-        let dateB = new Date(b.createdAt)
-        if (dateA < dateB) {
-            return 1
-        } else if (dateA > dateB) {
-            return -1
-        } else {
-            dateA = new Date(a.updatedAt)
-            dateB = new Date(b.updatedAt)
-            if (dateA < dateB) {
-                return 1
-            } else if (dateA > dateB) {
-                return -1
-            } else {
-                return 0
-            }
-        }
-    })
+let articlesArray: Ref<ParsedContent[]> = ref([])
+let nextArticlesArray: Ref<ParsedContent[]> = ref([])
+let prevArticlesArray: Ref<ParsedContent[]> = ref([])
 
-    return articles
-}
+await queryContent(routing.value[0], routing.value[1])
+    .where({ isArticle: { $eq: 'true' } })
+    .sort({ createdAt: 1 })
+    .skip(6 * (pageNo.value - 1))
+    .limit(6)
+    .find()
+    .then(res => (articlesArray.value = res))
+await queryContent(routing.value[0], routing.value[1])
+    .where({ isArticle: { $eq: 'true' } })
+    .sort({ createdAt: 1 })
+    .skip(6 * pageNo.value)
+    .limit(6)
+    .find()
+    .then(res => (nextArticlesArray.value = res))
+await queryContent(routing.value[0], routing.value[1])
+    .where({ isArticle: { $eq: 'true' } })
+    .sort({ createdAt: 1 })
+    .skip(6 * (pageNo.value - 2))
+    .limit(6)
+    .find()
+    .then(res => (prevArticlesArray.value = res))
+
+watch(pageNo, async () => {
+    await queryContent(routing.value[0], routing.value[1])
+        .where({ isArticle: { $eq: 'true' } })
+        .skip(6 * (pageNo.value - 1))
+        .limit(6)
+        .find()
+        .then(res => (articlesArray.value = res))
+
+    await queryContent(routing.value[0], routing.value[1])
+        .where({ isArticle: { $eq: 'true' } })
+        .sort({ createdAt: 1 })
+        .skip(6 * pageNo.value)
+        .limit(6)
+        .find()
+        .then(res => (nextArticlesArray.value = res))
+
+    await queryContent(routing.value[0], routing.value[1])
+        .where({ isArticle: { $eq: 'true' } })
+        .sort({ createdAt: 1 })
+        .skip(6 * (pageNo.value - 2))
+        .limit(6)
+        .find()
+        .then(res => (prevArticlesArray.value = res))
+})
 </script>
 
 <template>
@@ -40,19 +70,19 @@ const sortArticles = () => {
                     </div>
                     <div class="relative mx-auto max-w-7xl">
                         <div class="mx-auto max-w-screen-lg prose">
-                            <h1 class="text-center">
-                                {{ page.title }}
-                            </h1>
-                            <p class="mt-3 text-center text-gray-500">
-                                Retrouvez sur cette page tous les articles
-                                {{ page.title !== 'Blog' ? `catégorie ${page.title.toLowerCase()}` : 'du blog' }}.
-                            </p>
+                            <h1 class="text-center">{{ page.title }}</h1>
+                            <p class="mt-3 text-center text-gray-500">{{ page.chapeau }}</p>
                         </div>
 
-                        <LazyListeArticles :articles="sortArticles()" />
+                        <LazyListeArticles :articles="articlesArray" />
 
                         <div class="mt-10">
-                            <LazyPaginationBlog />
+                            <LazyPaginationBlog
+                                @prev-page="pageNo--"
+                                @next-page="pageNo++"
+                                :activePage="pageNo"
+                                :next-articles="nextArticlesArray"
+                                :prev-articles="prevArticlesArray" />
                         </div>
                     </div>
                 </div>

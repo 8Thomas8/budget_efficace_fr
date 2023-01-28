@@ -1,32 +1,15 @@
 <script setup lang="ts">
-const articlesArray = await queryContent('/blog').find()
-const returnLastArticles = () => {
-    let articles = articlesArray.filter(e => !['/blog', '/blog/budget'].includes(e._path as string))
+import { Ref } from 'vue'
+import { ParsedContent } from '@nuxt/content/dist/runtime/types'
 
-    articles.sort((a, b) => {
-        let dateA = new Date(a.createdAt)
-        let dateB = new Date(b.createdAt)
-        if (dateA < dateB) {
-            return 1
-        } else if (dateA > dateB) {
-            return -1
-        } else {
-            dateA = new Date(a.updatedAt)
-            dateB = new Date(b.updatedAt)
-            if (dateA < dateB) {
-                return 1
-            } else if (dateA > dateB) {
-                return -1
-            } else {
-                return 0
-            }
-        }
-    })
+let articlesArray: Ref<ParsedContent[]> = ref([])
 
-    articles = articles.slice(0, 6)
-
-    return articles
-}
+await queryContent('blog')
+    .where({ isArticle: { $eq: 'true' } })
+    .sort({ createdAt: 1 })
+    .limit(6)
+    .find()
+    .then(res => (articlesArray.value = res))
 </script>
 
 <template>
@@ -38,13 +21,19 @@ const returnLastArticles = () => {
             <div class="text-center">
                 <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Les derniers articles</h2>
                 <p class="mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa libero labore natus atque, ducimus
-                    sed.
+                    Découvrez les <strong>dernières astuces et conseils</strong> sur la gestion de budget efficace dans
+                    notre section d'articles. Nous mettons à jour régulièrement notre blog avec des
+                    <strong>informations exclusives</strong> sur les meilleures pratiques pour
+                    <strong>économiser de l'argent</strong>, et des histoires inspirantes de personnes qui ont réussi à
+                    atteindre leurs <strong>objectifs financiers</strong>. Parcourez notre sélection ci-dessous et
+                    trouvez l'inspiration pour vous aider à atteindre les vôtres.
                 </p>
             </div>
 
-            <div class="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3 lg:gap-8">
-                <template v-for="article in returnLastArticles()">
+            <div
+                v-if="articlesArray.length"
+                class="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3 lg:gap-8">
+                <template v-for="article in articlesArray">
                     <CardsBlog :article="article" />
                 </template>
             </div>

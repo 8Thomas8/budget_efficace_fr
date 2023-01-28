@@ -24,11 +24,11 @@ const { page } = useContent()
                             <section
                                 aria-labelledby="primary-heading"
                                 class="flex h-full min-w-0 flex-1 flex-col lg:order-last">
-                                <div class="max-h-[360px]">
+                                <div class="max-h-[360px] border-2 rounded-lg border-primary-base">
                                     <img
                                         :src="page.image.src"
                                         :alt="page.image.alt"
-                                        class="h-full w-full rounded-md object-cover object-bottom" />
+                                        class="h-full w-full rounded-md object-cover object-bottom shadow-lg" />
                                 </div>
                                 <div class="max-w-none prose">
                                     <slot />

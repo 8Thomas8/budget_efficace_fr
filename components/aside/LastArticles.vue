@@ -1,40 +1,23 @@
 <script setup lang="ts">
-const articlesArray = await queryContent('/blog').find()
-const returnLastArticles = () => {
-    let articles = articlesArray.filter(e => !['/blog', '/blog/budget'].includes(e._path as string))
+import { Ref } from 'vue'
+import { ParsedContent } from '@nuxt/content/dist/runtime/types'
 
-    articles.sort((a, b) => {
-        let dateA = new Date(a.createdAt)
-        let dateB = new Date(b.createdAt)
-        if (dateA < dateB) {
-            return 1
-        } else if (dateA > dateB) {
-            return -1
-        } else {
-            dateA = new Date(a.updatedAt)
-            dateB = new Date(b.updatedAt)
-            if (dateA < dateB) {
-                return 1
-            } else if (dateA > dateB) {
-                return -1
-            } else {
-                return 0
-            }
-        }
-    })
+let articlesArray: Ref<ParsedContent[]> = ref([])
 
-    articles = articles.slice(0, 5)
-
-    return articles
-}
+await queryContent('blog')
+    .where({ isArticle: { $eq: 'true' } })
+    .sort({ createdAt: 1 })
+    .limit(5)
+    .find()
+    .then(res => (articlesArray.value = res))
 </script>
 
-<template>
-    <div class="border-2 border-secondary-base rounded-md px-4 lg:px-6">
+<template v-if="articlesArray.length">
+    <div class="border-2 border-secondary-base rounded-md p-4 shadow-lg lg:p-6">
         <div class="prose">
             <h3>Les 5 derniers articles</h3>
             <ul>
-                <template v-for="article in returnLastArticles()">
+                <template v-for="article in articlesArray">
                     <li>
                         <nuxt-link
                             :top="article._path"
