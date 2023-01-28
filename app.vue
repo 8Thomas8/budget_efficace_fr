@@ -10,8 +10,7 @@ defineOgImageScreenshot({
 useSchemaOrg([
     defineOrganization({
         name: 'Budget Efficace',
-        logo: '/images/logo/budget-efficace.svg',
-        sameAs: ['https://twitter.com/company']
+        logo: '/images/logo/budget-efficace.svg'
     }),
     defineWebSite({
         name: 'Budget Efficace'

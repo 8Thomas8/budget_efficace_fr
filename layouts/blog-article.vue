@@ -19,8 +19,8 @@ const { page } = useContent()
                         </p>
                     </div>
 
-                    <div class="flex flex-1 items-stretch overflow-hidden space-x-12">
-                        <main class="flex-1 overflow-y-auto">
+                    <div class="flex flex-1 items-stretch space-x-12">
+                        <main class="flex-1">
                             <section
                                 aria-labelledby="primary-heading"
                                 class="flex h-full min-w-0 flex-1 flex-col lg:order-last">
@@ -36,8 +36,8 @@ const { page } = useContent()
                             </section>
                         </main>
 
-                        <aside class="hidden w-96 overflow-y-auto lg:block">
-                            <div>
+                        <aside class="hidden w-96 lg:block">
+                            <div class="lg:sticky lg:top-8">
                                 <LazyAsideLastArticles />
                             </div>
                         </aside>

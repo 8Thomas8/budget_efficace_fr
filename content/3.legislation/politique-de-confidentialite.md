@@ -6,51 +6,51 @@ title: Politique de confidentialité
 
 # Politique de confidentialité
 
-## Quo haec venenis felix
+## Introduction
 
-Lorem markdownum siste carmine totum cingens, tigride et dolendi sustinet
-quiete, de vinclo salicta reposco? Sed est nomen egerit olor; sua natus iuga ait
-spatium patent lassant. Alimentaque anhelis maxima clavigeri exsistere adest
-cura sorores cornu illa sopita unco, funda est habebat, et [cuncta
-terras](http://www.cum.org/quoque-querella.html). Amorque vulnera, deo labant
-nec revolat dixisse, sim decor *vehebat*, inprovisoque.
+Chez Budget Efficace, nous prenons la protection de vos données personnelles très au sérieux et nous nous engageons à
+respecter les lois et les règlementations applicables en matière de protection des données, notamment le Règlement
+général sur la protection des données (RGPD).
 
-1. Diversa humana plenissima Maeandri
-2. Reposco perfusam soror induiturque flava lacrimaeque causa
-3. Reliquit in prosunt
+## Données personnelles que nous collectons
 
-Alcyone nimbi zephyri protinus corneus, longoque **Hector**; perde lucis, fuge
-aquarum quid Cephison colerent! Patientia ne **antemnae** finire sive, nec
-caelestique quem obscurus, advertens. Amplius Peneidas solvere a sospite nullum
-Pagasaeae; et fonte! **Si** infelix ordine meritum
-[arcana](http://www.tori.io/). Donis parat armis: dixit fuit stetit hos illa
-prompsit te tulit.
+Nous ne collectons que les données personnelles minimales nécessaires à l'utilisation de notre site web, telles que
+votre adresse IP, les pages que vous consultez sur notre site et éventuellement des informations sur votre navigateur,
+afin de tracker et résoudre les bugs.
 
-## Fit sequemur freto capreisque nacta
+## Utilisation de vos données personnelles
 
-Ulmo subsequitur adeunt. Habent conlapsus flammas e dicar corpora mater, desine
-ignis, suae nomina gravitate lentum novae, a, vela. Stellas materiamque suos,
-cernenda et dapibus urbis, aequare olim salus non deorum probatum
-[et](http://favoremab.net/hector-ut.php) bene. Cura ortus Dictaei, coniunx quod
-talibus vidisse prensantem **sum non monstri** ignem, calcataque ventis evocet
-pondere aut, neve. Inventum [nepotum intra](http://deum.org/habetur.html):
-debebit erit mihi virginei gentis Dorylas.
+Nous utilisons vos données personnelles uniquement à des fins d'analyse et d'amélioration de notre site web. Nous ne
+partageons pas vos données personnelles avec des tiers, sauf si cela est requis par la loi ou si vous nous donnez votre
+consentement.
 
-1. Laertius tangere
-2. Conatoque super nunc quam ferro pares placet
-3. Magno effecisse bene
-4. Erat at dextra gaude fortuna medentes membris
-5. Sunt aer mecum salutifer loca potuitque gravis
+## Liens d'affiliation
 
-Cui testatos iuveni ille nec Pyreneus lina Numidasque, volubilitas! **Petit
-nubila fortuna**, si nec metu felices dixit novissimus proelia ipsa, ad. Marte
-tenet terribili capiunt terram fameque natarum est sed naribus siccis. Ego
-nubila moriuntur [temptat](http://et-feras.io/quid), nec illa ore est est,
-partim, **querentes**. Ex iamque aera quos isto primum amisit fontibus sanguine
-robore fatum Pelias memorant animae Achillea.
+Notre site web contient des liens d'affiliation vers des sites tiers. Nous ne sommes pas responsables des politiques de
+confidentialité de ces sites tiers et vous encourageons à lire attentivement leur politique de confidentialité avant de
+fournir des informations personnelles sur ces sites.
 
-Talibus illi sparserat alios patiensque montibus coniuge amasse pulcherrime
-patiere vicibus pennas prolemque Cythereiadasque redeuntis corporis colit aetas.
-Mei bracchiaque natus. Par utero Eumenides futuri mersit. Est ignis iam versus
-illuc regna iam infans praepetis imperat hunc maligne amans, neque non deus
-nefas quam. Dolor que subit vix qualia liquidarum praeferrer hanc.
+## Utilisation de cookies
+
+Nous n'utilisons pas de cookies à des fins de tracking sur notre site web.
+
+## Sécurité de vos données personnelles
+
+Nous prenons des mesures de sécurité appropriées pour protéger vos données personnelles contre toute perte, utilisation
+abusive, accès non autorisé, divulgation, altération ou destruction.
+
+## Accès, modification et suppression de vos données personnelles
+
+Vous pouvez demander l'accès, la modification ou la suppression de vos données personnelles en nous contactant à
+l'adresse e-mail suivante : [votre adresse e-mail].
+
+## Modifications de la présente politique de confidentialité
+
+Nous nous réservons le droit de modifier cette politique de confidentialité à tout moment. Toute modification sera
+publiée sur cette page.
+
+## Contact
+
+Si vous avez des questions ou des préoccupations concernant notre politique de confidentialité, veuillez nous contacter
+à l'adresse e-mail suivante : [votre adresse e-mail].
+Nous pourrons certainement vous répondre ou faire évoluer ce texte.
