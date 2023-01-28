@@ -24,13 +24,13 @@ export default defineNuxtConfig({
                             },
                             colors: {
                                 primary: {
-                                    base: '#7E81FF'
+                                    base: '#3CB35A'
                                 },
                                 secondary: {
-                                    base: '#1E293B'
+                                    base: '#03012C'
                                 },
                                 gray: {
-                                    base: '#B8BFC6',
+                                    base: '#635E79',
                                     light: '#FFFFFF'
                                 }
                             }
@@ -45,7 +45,13 @@ export default defineNuxtConfig({
                 injectPosition: 0,
                 viewer: true
             }
-        ]
+        ],
+        'nuxt-og-image',
+        'nuxt-schema-org'
     ],
-    css: ['@/assets/scss/main.scss']
+    css: ['@/assets/scss/main.scss'],
+    // @ts-ignore-next-line
+    schemaOrg: {
+        host: 'https://example.com'
+    }
 })
