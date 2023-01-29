@@ -9,8 +9,8 @@
                         <span class="block text-primary-base xl:inline"> Budget Efficace !</span>
                     </h1>
                     <p class="mx-auto mt-3 max-w-md text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
-                        Nous vous offrons des conseils pratiques, des astuces et des livres pour vous aider à maintenir
-                        un <strong>budget équilibré</strong> et à atteindre vos objectifs financiers.
+                        Nous vous offrons des conseils pratiques, des astuces et des revues de livres pour vous aider à
+                        maintenir un <strong>budget équilibré</strong> et à atteindre vos objectifs financiers.
                         <strong>Rejoignez notre communauté en ligne</strong> pour des conseils exclusifs et des outils
                         pour vous aider à <strong>économiser de l'argent</strong> tous les jours.
                         <strong>Commencez à économiser dès maintenant !</strong>
@@ -31,7 +31,7 @@
                 <img
                     class="absolute inset-0 h-full w-full object-cover object-top lg:object-left"
                     src="/images/home/herosection/illustration-economie-finances-personnelles.png"
-                    alt="" />
+                    alt="Illustration budget efficace" />
             </div>
         </main>
     </div>
