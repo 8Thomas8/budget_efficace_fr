@@ -20,7 +20,7 @@ await queryContent('blog')
                 <template v-for="article in articlesArray">
                     <li>
                         <nuxt-link
-                            :top="article._path"
+                            :to="article._path"
                             :title="article.title"
                             >{{ article.title }}
                         </nuxt-link>

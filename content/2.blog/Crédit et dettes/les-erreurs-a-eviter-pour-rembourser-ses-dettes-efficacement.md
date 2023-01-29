@@ -18,6 +18,7 @@ Sommaire :
 3. <a href="#ne-pas-demander-de-laide" title="Ne pas demander de l'aide">Ne pas demander de l'aide</a>
 4. <a href="#continuer-à-utiliser-vos-cartes-de-crédit" title="Continuer à utiliser vos cartes de crédit">Continuer à utiliser vos cartes de crédit</a>
 5. <a href="#ne-pas-communiquer-avec-les-créanciers" title="Ne pas communiquer avec les créanciers">Ne pas communiquer avec les créanciers</a>
+6. <a href="#conclusion">Conclusion</a>
 
 ## Ne pas budgétiser correctement
 Il est essentiel de budgétiser correctement lorsque vous remboursez vos dettes, car cela vous permet de savoir exactement combien d'argent vous devez consacrer au remboursement de vos dettes chaque mois. Il existe de nombreux outils de budgétisation en ligne, tels que :
@@ -50,4 +51,5 @@ Pour en savoir plus sur les options disponibles pour résoudre les dettes, consu
 - Les associations de consommateurs tels que le <a href="https://www.clcv.org/dettes-credit/" target="_blank" title="CLCV">CLCV</a>
 - <a href="https://www.mes-aides.gouv.fr/web/mes-aides/surendettement" target="_blank" title="La plateforme d'accompagnement et d'orientation en matière de surendettemen">La plateforme d'accompagnement et d'orientation en matière de surendettemen</a>
 
+## Conclusion
 En résumé, gérer efficacement vos dettes nécessite de la planification, de la discipline et de la communication. En créant un budget détaillé, en priorisant vos dettes et en communiquant avec vos créanciers, vous serez en mesure de rembourser vos dettes de manière efficace et de retrouver une situation financière saine. N'oubliez pas de demander de l'aide si vous en avez besoin et de rester vigilant quant aux options disponibles pour résoudre vos dettes.

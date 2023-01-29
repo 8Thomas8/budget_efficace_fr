@@ -27,7 +27,7 @@ const { page } = useContent()
                                     <img
                                         :src="page.image.src"
                                         :alt="page.image.alt"
-                                        class="h-full w-full rounded-md object-cover object-bottom shadow-lg" />
+                                        class="h-full w-full rounded-md object-cover object-top shadow-lg" />
                                 </div>
                                 <div class="max-w-none prose">
                                     <slot />
