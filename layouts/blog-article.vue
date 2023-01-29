@@ -14,8 +14,7 @@ const { page } = useContent()
                             {{ page.title }}
                         </h1>
                         <p class="mt-3 text-center text-gray-500">
-                            Retrouvez sur cette page tous les articles
-                            {{ page.chapeau }}.
+                            {{ page.chapeau }}
                         </p>
                     </div>
 
