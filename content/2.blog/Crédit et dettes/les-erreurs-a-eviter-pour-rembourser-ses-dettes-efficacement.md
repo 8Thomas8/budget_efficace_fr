@@ -6,8 +6,8 @@ description: 'Apprenez à rembourser vos dettes efficacement en évitant les err
 image:
     src: /images/blog/credit-et-dettes/les-erreurs-a-eviter-pour-rembourser-ses-dettes-efficacement.png
     alt: 'Les erreurs à éviter pour rembourser ses dettes efficacement'
-createdAt: 2018/12/22
-updatedAt: 2019/01/24
+createdAt: 2023/01/29
+updatedAt: 2023/01/29
 isArticle: 'true'
 ---
 
