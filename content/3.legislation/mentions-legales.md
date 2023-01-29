@@ -15,3 +15,7 @@ title: Mentions légales
 Walnut, CA 91789
 
 privacy@vercel.com
+
+## Contact
+
+contact@budget-efficace.fr

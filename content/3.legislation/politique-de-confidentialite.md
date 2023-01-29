@@ -42,7 +42,7 @@ abusive, accès non autorisé, divulgation, altération ou destruction.
 ## Accès, modification et suppression de vos données personnelles
 
 Vous pouvez demander l'accès, la modification ou la suppression de vos données personnelles en nous contactant à
-l'adresse e-mail suivante : [votre adresse e-mail].
+l'adresse e-mail suivante : contact@budget-efficace.fr
 
 ## Modifications de la présente politique de confidentialité
 
@@ -52,5 +52,5 @@ publiée sur cette page.
 ## Contact
 
 Si vous avez des questions ou des préoccupations concernant notre politique de confidentialité, veuillez nous contacter
-à l'adresse e-mail suivante : [votre adresse e-mail].
+à l'adresse e-mail suivante : contact@budget-efficace.fr
 Nous pourrons certainement vous répondre ou faire évoluer ce texte.
