@@ -11,13 +11,17 @@ updatedAt: 2023/01/29
 isArticle: 'true'
 ---
 
+<div class="mt-4 rounded-md bg-gray-100 p-4">
 Sommaire :
 
-1. <a href="#introduction">Introduction</a>
-2. <a href="#comparer-les-offres-internet">Comparer les offres internet</a>
-3. <a href="#gérer-sa-consommation-de-données">Gérer sa consommation de données</a>
-4. <a href="#négocier-avec-son-fournisseur">Négocier avec son fournisseur</a>
-5. <a href="#conclusion">Conclusion</a>
+<ol class="flex flex-col">
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#comparer-les-offres-internet">Comparer les offres internet</a></li>
+    <li><a href="#gérer-sa-consommation-de-données">Gérer sa consommation de données</a></li>
+    <li><a href="#négocier-avec-son-fournisseur">Négocier avec son fournisseur</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+</ol>
+</div>
 
 ## Introduction
 

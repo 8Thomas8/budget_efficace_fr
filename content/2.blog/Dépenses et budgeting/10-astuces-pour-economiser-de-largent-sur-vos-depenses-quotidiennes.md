@@ -14,19 +14,23 @@ updatedAt: 2023/01/29
 isArticle: 'true'
 ---
 
+<div class="mt-4 rounded-md bg-gray-100 p-4">
 Sommaire :
 
-1. <a href="#faites-un-budget-mensuel">Faites un budget mensuel</a>
-2. <a href="#faites-vos-courses-avec-une-liste">Faites vos courses avec une liste</a>
-3. <a href="#utilisez-des-coupons-de-réduction">Utilisez des coupons de réduction</a>
-4. <a href="#faites-vos-courses-en-dehors-des-heures-de-pointe">Faites vos courses en dehors des heures de pointe</a>
-5. <a href="#achetez-en-vrac">Achetez en vrac</a>
-6. <a href="#utilisez-une-application-de-cashback">Utilisez une application de cashback</a>
-7. <a href="#utilisez-les-cartes-de-fidélité">Utilisez les cartes de fidélité</a>
-8. <a href="#utilisez-des-applications-de-comparaison-de-prix">Utilisez des applications de comparaison de prix</a>
-9. <a href="#faites-vos-propres-repas">Faites vos propres repas</a>
-10. <a href="#évitez-les-achats-de-luxe">Évitez les achats de luxe</a>
-11. <a href="#conclusion">Conclusion</a>
+<ol class="flex flex-col">
+   <li><a href="#faites-un-budget-mensuel">Faites un budget mensuel</a></li>
+   <li><a href="#faites-vos-courses-avec-une-liste">Faites vos courses avec une liste</a></li>
+   <li><a href="#utilisez-des-coupons-de-réduction">Utilisez des coupons de réduction</a></li>
+   <li><a href="#faites-vos-courses-en-dehors-des-heures-de-pointe">Faites vos courses en dehors des heures de pointe</a></li>
+   <li><a href="#achetez-en-vrac">Achetez en vrac</a></li>
+   <li><a href="#utilisez-une-application-de-cashback">Utilisez une application de cashback</a></li>
+   <li><a href="#utilisez-les-cartes-de-fidélité">Utilisez les cartes de fidélité</a></li>
+   <li><a href="#utilisez-des-applications-de-comparaison-de-prix">Utilisez des applications de comparaison de prix</a></li>
+   <li><a href="#faites-vos-propres-repas">Faites vos propres repas</a></li>
+   <li><a href="#évitez-les-achats-de-luxe">Évitez les achats de luxe</a></li>
+   <li><a href="#conclusion">Conclusion</a></li>
+</ol>
+</div>
 
 ## Faites un budget mensuel
 
