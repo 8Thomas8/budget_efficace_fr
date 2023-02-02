@@ -8,7 +8,7 @@ description: "Découvrez comment rembourser rapidement et efficacement vos dette
 Établissez un budget, économisez de l'argent, priorisez vos dettes et utilisez vos bonus pour atteindre votre liberté
 financière plus rapidement."
 image:
-    src: /images/blog/credit-et-dettes/les-erreurs-a-eviter-pour-rembourser-ses-dettes-efficacement.png
+    src: /images/blog/credit-et-dettes/comment-rembourser-vos-dettes-rapidement-et-efficacement.png
     alt: 'Comment rembourser vos dettes rapidement et efficacement ?'
 createdAt: 2023/01/31
 updatedAt: 2023/01/31
