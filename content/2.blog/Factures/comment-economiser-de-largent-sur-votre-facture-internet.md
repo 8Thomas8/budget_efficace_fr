@@ -15,11 +15,11 @@ isArticle: 'true'
 Sommaire :
 
 <ol class="flex flex-col">
-    <li><a href="#introduction">Introduction</a></li>
-    <li><a href="#comparer-les-offres-internet">Comparer les offres internet</a></li>
-    <li><a href="#gérer-sa-consommation-de-données">Gérer sa consommation de données</a></li>
-    <li><a href="#négocier-avec-son-fournisseur">Négocier avec son fournisseur</a></li>
-    <li><a href="#conclusion">Conclusion</a></li>
+    <li><a href="#introduction" title="Introduction">Introduction</a></li>
+    <li><a href="#comparer-les-offres-internet" title="Comparer les offres internet">Comparer les offres internet</a></li>
+    <li><a href="#gérer-sa-consommation-de-données" title="Gérer sa consommation de données">Gérer sa consommation de données</a></li>
+    <li><a href="#négocier-avec-son-fournisseur" title="Négocier avec son fournisseur">Négocier avec son fournisseur</a></li>
+    <li><a href="#conclusion" title="Conclusion">Conclusion</a></li>
 </ol>
 </div>
 

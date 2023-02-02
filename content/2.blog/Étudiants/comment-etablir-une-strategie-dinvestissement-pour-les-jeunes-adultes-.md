@@ -18,12 +18,12 @@ isArticle: 'true'
 Sommaire :
 
 <ol class="flex flex-col">
-    <li><a href="#définissez-vos-objectifs-financiers">Définissez vos objectifs financiers</a></li>
-    <li><a href="#évaluez-votre-tolérance-au-risque">Évaluez votre tolérance au risque</a></li>
-    <li><a href="#éduquez-vous-sur-les-options-dinvestissement-disponibles">Éduquez-vous sur les options d'investissement disponibles</a></li>
-    <li><a href="#utilisez-des-outils-pour-vous-aider">Utilisez des outils pour vous aider</a></li>
-    <li><a href="#diversifiez-votre-portefeuille">Diversifiez votre portefeuille</a></li>
-    <li><a href="#conclusion">Conclusion</a></li>
+    <li><a href="#définissez-vos-objectifs-financiers" title="Définissez vos objectifs financiers">Définissez vos objectifs financiers</a></li>
+    <li><a href="#évaluez-votre-tolérance-au-risque" title="Évaluez votre tolérance au risque">Évaluez votre tolérance au risque</a></li>
+    <li><a href="#éduquez-vous-sur-les-options-dinvestissement-disponibles" title="Éduquez-vous sur les options d'investissement disponibles">Éduquez-vous sur les options d'investissement disponibles</a></li>
+    <li><a href="#utilisez-des-outils-pour-vous-aider" title="Utilisez des outils pour vous aider">Utilisez des outils pour vous aider</a></li>
+    <li><a href="#diversifiez-votre-portefeuille" title="Diversifiez votre portefeuille">Diversifiez votre portefeuille</a></li>
+    <li><a href="#conclusion" title="Conclusion">Conclusion</a></li>
 </ol>
 </div>
 

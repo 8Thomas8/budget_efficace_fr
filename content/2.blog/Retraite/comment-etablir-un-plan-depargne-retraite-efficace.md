@@ -18,11 +18,13 @@ isArticle: 'true'
 Sommaire :
 
 <ol class="flex flex-col">
-    <li><a href="#introduction">Introduction</a></li>
-    <li><a href="#comparer-les-offres-internet">Comparer les offres internet</a></li>
-    <li><a href="#gérer-sa-consommation-de-données">Gérer sa consommation de données</a></li>
-    <li><a href="#négocier-avec-son-fournisseur">Négocier avec son fournisseur</a></li>
-    <li><a href="#conclusion">Conclusion</a></li>
+    <li><a href="#introduction" title="Introduction">Introduction</a></li>
+    <li><a href="#établissement-dobjectifs-de-retraite" title="Établissement d'objectifs de retraite">Établissement d'objectifs de retraite</a></li>
+    <li><a href="#comprehension-des-options-dépargne-retraite" title="Comprehension des options d'épargne-retraite">Comprehension des options d'épargne-retraite</a></li>
+    <li><a href="#établissement-dun-plan-dépargne" title="Établissement d'un plan d'épargne">Établissement d'un plan d'épargne</a></li>
+    <li><a href="#suivi-des-progrès" title="Suivi des progrès">Suivi des progrès</a></li>
+    <li><a href="#consultation-dun-conseiller-financier" title="Consultation d'un conseiller financier">Consultation d'un conseiller financier</a></li>
+    <li><a href="#conclusion" title="Conclusion">Conclusion</a></li>
 </ol>
 </div>
 

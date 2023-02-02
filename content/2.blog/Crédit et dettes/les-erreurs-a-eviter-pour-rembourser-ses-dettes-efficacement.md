@@ -20,7 +20,7 @@ Sommaire :
     <li><a href="#ne-pas-demander-de-laide" title="Ne pas demander de l'aide">Ne pas demander de l'aide</a></li>
     <li><a href="#continuer-à-utiliser-vos-cartes-de-crédit" title="Continuer à utiliser vos cartes de crédit">Continuer à utiliser vos cartes de crédit</a></li>
     <li><a href="#ne-pas-communiquer-avec-les-créanciers" title="Ne pas communiquer avec les créanciers">Ne pas communiquer avec les créanciers</a></li>
-    <li><a href="#conclusion">Conclusion</a></li>
+    <li><a href="#conclusion" title="Conclusion">Conclusion</a></li>
 </ol>
 </div>
 

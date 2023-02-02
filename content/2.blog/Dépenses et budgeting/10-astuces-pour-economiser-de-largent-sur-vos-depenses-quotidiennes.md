@@ -18,17 +18,17 @@ isArticle: 'true'
 Sommaire :
 
 <ol class="flex flex-col">
-   <li><a href="#faites-un-budget-mensuel">Faites un budget mensuel</a></li>
-   <li><a href="#faites-vos-courses-avec-une-liste">Faites vos courses avec une liste</a></li>
-   <li><a href="#utilisez-des-coupons-de-réduction">Utilisez des coupons de réduction</a></li>
-   <li><a href="#faites-vos-courses-en-dehors-des-heures-de-pointe">Faites vos courses en dehors des heures de pointe</a></li>
-   <li><a href="#achetez-en-vrac">Achetez en vrac</a></li>
-   <li><a href="#utilisez-une-application-de-cashback">Utilisez une application de cashback</a></li>
-   <li><a href="#utilisez-les-cartes-de-fidélité">Utilisez les cartes de fidélité</a></li>
-   <li><a href="#utilisez-des-applications-de-comparaison-de-prix">Utilisez des applications de comparaison de prix</a></li>
-   <li><a href="#faites-vos-propres-repas">Faites vos propres repas</a></li>
-   <li><a href="#évitez-les-achats-de-luxe">Évitez les achats de luxe</a></li>
-   <li><a href="#conclusion">Conclusion</a></li>
+   <li><a href="#faites-un-budget-mensuel" title="Faites un budget mensuel">Faites un budget mensuel</a></li>
+   <li><a href="#faites-vos-courses-avec-une-liste" title="Faites vos courses avec une liste">Faites vos courses avec une liste</a></li>
+   <li><a href="#utilisez-des-coupons-de-réduction" title="Utilisez des coupons de réduction">Utilisez des coupons de réduction</a></li>
+   <li><a href="#faites-vos-courses-en-dehors-des-heures-de-pointe" title="Faites vos courses en dehors des heures de pointe">Faites vos courses en dehors des heures de pointe</a></li>
+   <li><a href="#achetez-en-vrac" title="Achetez en vrac">Achetez en vrac</a></li>
+   <li><a href="#utilisez-une-application-de-cashback" title="Utilisez une application de cashback">Utilisez une application de cashback</a></li>
+   <li><a href="#utilisez-les-cartes-de-fidélité" title="Utilisez les cartes de fidélité">Utilisez les cartes de fidélité</a></li>
+   <li><a href="#utilisez-des-applications-de-comparaison-de-prix" title="Utilisez des applications de comparaison de prix">Utilisez des applications de comparaison de prix</a></li>
+   <li><a href="#faites-vos-propres-repas" title="Faites vos propres repas">Faites vos propres repas</a></li>
+   <li><a href="#évitez-les-achats-de-luxe" title="Évitez les achats de luxe">Évitez les achats de luxe</a></li>
+   <li><a href="#conclusion" title="Conclusion">Conclusion</a></li>
 </ol>
 </div>
 
