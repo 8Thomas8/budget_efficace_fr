@@ -6,7 +6,7 @@ let articlesArray: Ref<ParsedContent[]> = ref([])
 
 await queryContent('blog')
     .where({ isArticle: { $eq: 'true' } })
-    .sort({ createdAt: 1 })
+    .sort({ createdAt: -1 })
     .limit(6)
     .find()
     .then(res => (articlesArray.value = res))
