@@ -10,12 +10,12 @@ const props = defineProps({
     prevArticles: {
         type: Array,
         required: true,
-        default: [] as ParsedContent[]
+        default: [] as Pick<ParsedContent, any>
     },
     nextArticles: {
         type: Array,
         required: true,
-        default: [] as ParsedContent[]
+        default: [] as Pick<ParsedContent, any>
     }
 })
 const emits = defineEmits(['nextPage', 'prevPage'])
