@@ -27,12 +27,12 @@ Sommaire :
 </ol>
 </div>
 
-Les finances personnelles peuvent être une source de stress pour de nombreux couples. Des problèmes d'argent peuvent
-même être la cause de la rupture de certaines relations. Cependant, en discutant ouvertement de vos finances avec votre
-partenaire, vous pouvez éviter les problèmes futurs et renforcer votre relation.
+Les **finances personnelles** peuvent être une source de stress pour de nombreux couples. Des problèmes d'argent peuvent
+même être la cause de la rupture de certaines relations. Cependant, **en discutant ouvertement** de vos finances avec votre
+partenaire, vous pouvez **éviter les problèmes** futurs et renforcer votre relation.
 
-Il est important d'être honnête et ouvert avec votre partenaire sur vos finances, que ce soit sur vos revenus, vos
-dépenses, vos dettes ou vos objectifs financiers. Cela peut sembler effrayant ou gênant au début, mais ces discussions
+Il est important d'être honnête et ouvert avec votre partenaire sur vos **finances**, que ce soit sur vos **revenus**, vos
+**dépenses**, vos **dettes** ou vos **objectifs financiers**. Cela peut sembler effrayant ou gênant au début, mais ces discussions
 peuvent vous aider à établir une base solide pour la gestion de vos finances à deux.
 
 Voici quelques conseils pour aborder les discussions sur l'argent avec votre partenaire :

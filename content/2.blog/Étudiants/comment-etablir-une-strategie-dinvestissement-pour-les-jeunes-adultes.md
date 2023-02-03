@@ -7,7 +7,7 @@ objectifs financiers."
 description: "Apprenez comment établir une stratégie d'investissement solide pour les jeunes adultes en suivant ces
 conseils pratiques et en utilisant les meilleurs outils disponibles."
 image:
-   src: /images/blog/etudiants/comment-etablir-une-strategie-dinvestissement-pour-les-jeunes-adultes-.png
+   src: /images/blog/etudiants/comment-etablir-une-strategie-dinvestissement-pour-les-jeunes-adultes.png
    alt: "Comment établir une stratégie d'investissement pour les jeunes adultes ?"
 createdAt: 2023/01/30
 updatedAt: 2023/01/30
