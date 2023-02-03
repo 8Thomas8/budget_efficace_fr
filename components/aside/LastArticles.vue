@@ -1,12 +1,16 @@
 <script setup lang="ts">
-const { data: articlesArray } = await useAsyncData('articlesArray', () => {
-    return queryContent('blog')
-        .where({ isArticle: { $eq: 'true' } })
-        .only(['title', '_path'])
-        .sort({ createdAt: -1 })
-        .limit(5)
-        .find()
-})
+import { Ref } from 'vue'
+import { ParsedContent } from '@nuxt/content/dist/runtime/types'
+
+let articlesArray: Ref<Pick<ParsedContent, any>[]> = ref([])
+
+await queryContent('blog')
+    .where({ isArticle: { $eq: 'true' } })
+    .only(['title', '_path'])
+    .sort({ createdAt: -1 })
+    .limit(5)
+    .find()
+    .then(res => (articlesArray.value = res))
 </script>
 
 <template v-if="articlesArray.length">
