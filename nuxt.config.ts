@@ -53,5 +53,10 @@ export default defineNuxtConfig({
     // @ts-ignore-next-line
     schemaOrg: {
         host: 'https://example.com'
+    },
+    nitro: {
+        prerender: {
+            routes: ['/sitemap.xml']
+        }
     }
 })
