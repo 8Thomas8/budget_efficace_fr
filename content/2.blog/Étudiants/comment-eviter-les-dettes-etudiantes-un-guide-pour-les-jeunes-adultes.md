@@ -9,8 +9,8 @@ des conseils sur la gestion budgétaire et des astuces pour économiser de l'arg
 image:
     src: /images/blog/etudiants/comment-eviter-les-dettes-etudiantes-un-guide-pour-les-jeunes-adultes.png
     alt: "Comment éviter les dettes étudiantes : un guide pour les jeunes adultes."
-createdAt: 2023/01/30
-updatedAt: 2023/01/30
+createdAt: 2023/02/05
+updatedAt: 2023/02/05
 isArticle: 'true'
 ---
 
