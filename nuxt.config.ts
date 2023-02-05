@@ -52,6 +52,11 @@ export default defineNuxtConfig({
     css: ['@/assets/scss/main.scss'],
     // @ts-ignore-next-line
     schemaOrg: {
-        host: 'https://example.com'
+        host: 'https://budget-efficace.fr/'
+    },
+    nitro: {
+        prerender: {
+            routes: ['/sitemap.xml']
+        }
     }
 })

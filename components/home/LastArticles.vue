@@ -2,10 +2,11 @@
 import { Ref } from 'vue'
 import { ParsedContent } from '@nuxt/content/dist/runtime/types'
 
-let articlesArray: Ref<ParsedContent[]> = ref([])
+let articlesArray: Ref<Pick<ParsedContent, any>[]> = ref([])
 
 await queryContent('blog')
     .where({ isArticle: { $eq: 'true' } })
+    .only(['title', '_path', 'image', '_dir', 'description'])
     .sort({ createdAt: -1 })
     .limit(6)
     .find()
@@ -21,12 +22,11 @@ await queryContent('blog')
             <div class="text-center">
                 <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Les derniers articles</h2>
                 <p class="mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4">
-                    Découvrez les <strong>dernières astuces et conseils</strong> sur la gestion de budget efficace dans
-                    notre section d'articles. Nous mettons à jour régulièrement notre blog avec des
+                    Découvrez les <strong>derniers conseils et astuces</strong> sur la gestion d'un budget efficace
+                    parmis notre section d'articles. Nous mettons à jour régulièrement notre blog avec des
                     <strong>informations exclusives</strong> sur les meilleures pratiques pour
-                    <strong>économiser de l'argent</strong>, et des histoires inspirantes de personnes qui ont réussi à
-                    atteindre leurs <strong>objectifs financiers</strong>. Parcourez notre sélection ci-dessous et
-                    trouvez l'inspiration pour vous aider à atteindre les vôtres.
+                    <strong>économiser de l'argent</strong>. Trouvez l'inspiration pour vous aider à atteindre vos
+                    objectifs.
                 </p>
             </div>
 
