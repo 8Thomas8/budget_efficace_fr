@@ -45,7 +45,7 @@ penser.
 
 ## Utilisez une application de dépôt d'épargne
 Il existe de nombreuses applications de dépôt d'épargne en ligne qui vous
-aideront à économiser de l'argent **en automatisant les processus**. Essayez <a href="www.digit.co" title="Digit" target="_blank">Digit</a> pour commencer à épargner
+aideront à économiser de l'argent **en automatisant les processus**. Essayez <a href="https://www.digit.co" title="Digit" target="_blank">Digit</a> pour commencer à épargner
 facilement.
 
 ## Évitez les dépenses superflues
@@ -61,7 +61,7 @@ argent plutôt que de le dépenser tout desuite. Cela peut aider à augmenter vo
 Les FCP sont un moyen facile d'investir dans un large éventail d'
 actions et d'obligations. Vous pouvez commencer à investir avec peu d'argent et laisser votre investissement croître au
 fil du temps. Consultez un **conseiller en investissement** ou utilisez un site en ligne, tel que
-<a href="www.boursorama.com" title="Boursorama" target="_blank">Boursorama</a>, pour en savoir plus sur les FCP et comment les utiliser pour atteindre vos objectifs
+<a href="https://www.boursorama.com/" title="Boursorama" target="_blank">Boursorama</a>, pour en savoir plus sur les FCP et comment les utiliser pour atteindre vos objectifs
 d'épargne.
 
 ## Conclusion
