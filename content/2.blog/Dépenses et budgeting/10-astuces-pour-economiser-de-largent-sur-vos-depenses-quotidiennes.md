@@ -36,7 +36,7 @@ Sommaire :
 
 La première étape pour économiser de l'argent sur vos **dépenses quotidiennes** est de savoir où va votre argent. En créant
 un budget mensuel, vous pouvez identifier les **dépenses inutiles** et cibler les zones où vous pouvez réaliser des
-économies. Il existe des outils en ligne tels que <a href="https://www.mint.com/" title="Mint" target="_blank">Mint</a>
+économies. Il existe des outils en ligne tels que <a href="https://www.linxo.com/" title="Linxo" target="_blank">Linxo</a>
 qui peuvent vous aider à créer et à
 suivre un budget.
 
