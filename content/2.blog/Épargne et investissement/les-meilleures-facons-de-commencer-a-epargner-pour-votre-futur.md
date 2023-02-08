@@ -36,7 +36,7 @@ Voici les meilleures façons de commencer à épargner:
 ## Établissez un budget
 La première étape pour épargner est de savoir combien vous dépensez. Établissez un budget en
 notant toutes vos dépenses et en déterminant où vous pouvez couper pour économiser de l'argent. Vous pouvez utiliser un
-outil en ligne gratuit, comme <a href="www.mint.com" title="Mint" target="_blank">Mint</a> pour vous aider à suivre vos dépenses.
+outil en ligne gratuit, comme <a href="https://www.linxo.com" title="Linxo" target="_blank">Linxo</a> pour vous aider à suivre vos dépenses.
 
 ## Économisez automatiquement
 La meilleure façon d'**épargner** est de le faire automatiquement chaque mois. Configurez un

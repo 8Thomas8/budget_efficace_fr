@@ -36,7 +36,7 @@ Heureusement, il existe des moyens simples pour gérer votre budget et éviter l
 Certains peuvent paraitre évident, mais voici quelques conseils pratiques pour économiser de l'argent et gérer votre budget de manière efficace :
 
 ## Établissez un budget mensuel
-Utilisez une application telle que <a href="www.mint.com" title="Mint" target="_blank">Mint</a> pour suivre vos dépenses et
+Utilisez une application telle que <a href="https://www.linxo.com" title="Linxo" target="_blank">Linxo</a> pour suivre vos dépenses et
 établir un budget mensuel. Cela vous permettra de savoir exactement où va votre argent et de prendre des décisions
 budgétaires judicieuses.
 
