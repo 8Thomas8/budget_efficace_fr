@@ -39,7 +39,7 @@ important de savoir combien d'argent vous dépensez chaque mois. Cela peut sembl
 c'est plus facile que vous ne le pensez.
 
 Heureusement, il existe de **nombreux outils en ligne gratuits** qui peuvent vous aider à suivre vos dépenses et à établir
-un budget. Un de ces outils est <a href="https://www.mint.com/" title="Mint" target="_blank">Mint</a>. Il s'agit d'une plateforme en ligne populaire qui vous permet de connecter tous
+un budget. Un de ces outils est <a href="https://www.linxo.com/" title="Linxo" target="_blank">Linxo</a>. Il s'agit d'une plateforme en ligne populaire qui vous permet de connecter tous
 vos comptes bancaires, vos cartes de crédit et vos investissements en un seul endroit. Ensuite, Mint vous montre où vous
 dépensez votre argent, vous aide à établir un budget et vous permet de **suivre vos dépenses au fil du temps**.
 
