@@ -32,13 +32,13 @@ const props = defineProps({
                         <p class="mt-3 text-base text-gray-500 h-[120px] line-clamp-5">{{ article.description }}</p>
                     </div>
                 </div>
-                <!--                <div class="mt-6 flex items-center">-->
-                <!--                    <div class="flex text-sm text-gray-500 space-x-1">-->
-                <!--                        <time datetime="{{article.createdAt}}"-->
-                <!--                            >{{ new Date(article.createdAt).toLocaleDateString() }}-->
-                <!--                        </time>-->
-                <!--                    </div>-->
-                <!--                </div>-->
+                <div class="mt-6 flex items-center">
+                    <div class="flex text-sm text-gray-500 space-x-1">
+                        <time datetime="{{article.createdAt}}"
+                            >{{ new Date(article.createdAt).toLocaleDateString() }}
+                        </time>
+                    </div>
+                </div>
             </div>
         </nuxt-link>
     </div>

@@ -10,6 +10,11 @@ const { page } = useContent()
             <div class="relative bg-gray-50 px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28">
                 <div class="mx-auto max-w-7xl space-y-8">
                     <div class="mx-auto max-w-screen-lg prose">
+                        <span class="text-center w-full inline-block text-gray-500 text-sm">
+                            <time datetime="{{page.createdAt}}"
+                                >{{ new Date(page.createdAt).toLocaleDateString() }}
+                            </time>
+                        </span>
                         <h1 class="text-center">
                             {{ page.title }}
                         </h1>
