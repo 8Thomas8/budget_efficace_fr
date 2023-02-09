@@ -35,6 +35,7 @@ await queryContent(routing.value[0], routing.value[1])
 watch(pageNo, async () => {
     await queryContent(routing.value[0], routing.value[1])
         .where({ isArticle: { $eq: 'true' } })
+        .sort({ createdAt: -1 })
         .skip(6 * (pageNo.value - 1))
         .limit(6)
         .find()
