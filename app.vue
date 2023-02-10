@@ -8,7 +8,7 @@ useHead({
 useSeoMeta({
     title: 'Accueil',
     description:
-        '"Améliorez votre situation financière avec Budget Efficace. Conseils sur l\'épargne, investissement, gestion des dépenses, astuces pour économiser. Histoires inspirantes, conseils pour étudiants/jeunes adultes. Parcourez notre archive pour économiser dès maintenant.'
+        "Améliorez votre situation financière avec Budget Efficace. Conseils sur l'épargne, investissement, gestion des dépenses, astuces pour économiser. Histoires inspirantes, conseils pour étudiants/jeunes adultes. Parcourez notre archive pour économiser dès maintenant."
 })
 defineOgImageScreenshot({
     alt: 'Accueil Budget Efficace'

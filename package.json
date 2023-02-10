@@ -13,17 +13,18 @@
     "prettier fix": "npx prettier --write ."
   },
   "devDependencies": {
-    "@nuxt/content": "^2.4.2",
+    "@nuxt/content": "^2.4.3",
+    "@nuxt/devtools": "npm:@nuxt/devtools-edge@latest",
     "@nuxtjs/plausible": "^0.2.0",
-    "@nuxtjs/tailwindcss": "^6.3.0",
+    "@nuxtjs/tailwindcss": "^6.3.1",
     "@tailwindcss/forms": "^0.5.3",
     "@tailwindcss/line-clamp": "^0.4.2",
     "@tailwindcss/typography": "^0.5.9",
-    "nuxt": "^3.1.1",
-    "nuxt-og-image": "^1.3.2",
-    "nuxt-schema-org": "^2.1.0",
-    "prettier": "^2.8.3",
-    "sass": "^1.57.1",
+    "nuxt": "^3.2.0",
+    "nuxt-og-image": "^1.4.13",
+    "nuxt-schema-org": "^2.1.1",
+    "prettier": "^2.8.4",
+    "sass": "^1.58.0",
     "sitemap": "^7.1.1"
   }
 }

@@ -47,7 +47,8 @@ export default defineNuxtConfig({
             }
         ],
         'nuxt-og-image',
-        'nuxt-schema-org'
+        'nuxt-schema-org',
+        '@nuxt/devtools'
     ],
     css: ['@/assets/scss/main.scss'],
     // @ts-ignore-next-line
