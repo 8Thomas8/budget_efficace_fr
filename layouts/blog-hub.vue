@@ -2,6 +2,10 @@
 import { Ref } from 'vue'
 import { ParsedContent } from '@nuxt/content/dist/runtime/types'
 
+useHead({
+    meta: [{ name: 'robots', content: 'noindex' }]
+})
+
 const routing = ref(useRoute().params.slug)
 const pageNo = ref(1)
 const { page } = useContent()

@@ -1,3 +1,9 @@
+<script setup lang="ts">
+useHead({
+    meta: [{ name: 'robots', content: 'noindex' }]
+})
+</script>
+
 <template>
     <div>
         <NavBar />
@@ -23,14 +29,5 @@
 
             <LazyFooter />
         </div>
-
-        <!--
-This example requires updating your template:
-
-```
-<html class="h-full bg-gray-50">
-<body class="h-full overflow-hidden">
-```
--->
     </div>
 </template>
