@@ -1,6 +1,15 @@
 <script setup lang="ts">
+const { page } = useContent()
+
 useHead({
-    meta: [{ name: 'robots', content: 'noindex' }]
+    meta: [{ name: 'robots', content: 'noindex' }],
+    link: [
+        {
+            hid: 'canonical',
+            rel: 'canonical',
+            href: `https://budget-efficace.fr${page.value._path}`
+        }
+    ]
 })
 </script>
 

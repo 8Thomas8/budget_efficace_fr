@@ -1,3 +1,16 @@
+<script setup lang="ts">
+const { page } = useContent()
+useHead({
+    link: [
+        {
+            hid: 'canonical',
+            rel: 'canonical',
+            href: `https://budget-efficace.fr`
+        }
+    ]
+})
+</script>
+
 <template>
     <div>
         <NavBar />

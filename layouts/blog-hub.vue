@@ -2,13 +2,19 @@
 import { Ref } from 'vue'
 import { ParsedContent } from '@nuxt/content/dist/runtime/types'
 
-useHead({
-    meta: [{ name: 'robots', content: 'noindex' }]
-})
-
 const routing = ref(useRoute().params.slug)
 const pageNo = ref(1)
 const { page } = useContent()
+
+useHead({
+    link: [
+        {
+            hid: 'canonical',
+            rel: 'canonical',
+            href: `https://budget-efficace.fr${page.value._path}`
+        }
+    ]
+})
 
 let articlesArray: Ref<ParsedContent[]> = ref([])
 let nextArticlesArray: Ref<ParsedContent[]> = ref([])

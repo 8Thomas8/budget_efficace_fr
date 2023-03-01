@@ -1,5 +1,15 @@
 <script setup lang="ts">
 const { page } = useContent()
+
+useHead({
+    link: [
+        {
+            hid: 'canonical',
+            rel: 'canonical',
+            href: `https://budget-efficace.fr${page.value._path}`
+        }
+    ]
+})
 </script>
 
 <template>
