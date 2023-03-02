@@ -19,14 +19,14 @@ isArticle: 'true'
 Sommaire :
 
 <ol class="flex flex-col">
-    <li><a href="#i-introduction">I. Introduction</a></li>
-    <li><a href="#ii-les-ressources-en-ligne-pour-investir">II. Les ressources en ligne pour investir</a></li>
-    <li><a href="#iii-les-outils-en-ligne-pour-investir">III. Les outils en ligne pour investir</a></li>
-    <li><a href="#v-conclusion">V. Conclusion</a></li>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#les-ressources-en-ligne-pour-investir">Les ressources en ligne pour investir</a></li>
+    <li><a href="#les-outils-en-ligne-pour-investir">Les outils en ligne pour investir</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
 </ol>
 </div>
 
-## I. Introduction
+## Introduction
 
 L'investissement est un moyen intelligent de faire fructifier son argent, mais cela peut aussi être intimidant et risqué
 pour les débutants. Heureusement, il existe des ressources et des outils en ligne qui peuvent aider les investisseurs à
@@ -42,7 +42,7 @@ investissements, à calculer les rendements et à gérer les risques.
 Maintenant que nous avons vu l'importance des ressources et des outils en ligne pour les investisseurs, explorons les
 différentes ressources en ligne pour investir.
 
-## II. Les ressources en ligne pour investir
+## Les ressources en ligne pour investir
 
 Les ressources en ligne pour investir sont nombreuses et variées. Voici une liste des principales ressources en ligne
 qui peuvent vous aider à investir intelligemment :
@@ -83,7 +83,7 @@ peuvent vous aider à prendre des décisions éclairées en matière d'investiss
 à l'esprit que toutes les informations ne sont pas égales en valeur et qu'il est important de faire preuve de
 discernement et de rechercher des sources fiables.
 
-## III. Les outils en ligne pour investir
+## Les outils en ligne pour investir
 
 Les outils en ligne pour investir sont nombreux et variés, allant des simulateurs de placement en ligne aux logiciels
 d'analyse de portefeuille. Voici quelques exemples d'outils qui peuvent vous aider à prendre des décisions éclairées en
@@ -115,7 +115,7 @@ En utilisant ces outils, vous pouvez mieux comprendre vos options d'investisseme
 de vos investissements et qu'il est toujours important de faire vos propres recherches et de consulter un conseiller
 financier avant de prendre des décisions d'investissement importantes.
 
-## V. Conclusion
+## Conclusion
 
 En résumé, investir intelligemment et prendre des décisions éclairées nécessitent l'utilisation de ressources et d'
 outils en ligne. Les sites web de courtage en ligne, les sites d'actualités financières et boursières, les forums, les
