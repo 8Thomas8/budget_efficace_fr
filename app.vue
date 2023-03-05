@@ -16,7 +16,7 @@ defineOgImageScreenshot({
 useSchemaOrg([
     defineOrganization({
         name: 'Budget Efficace',
-        logo: '/images/logo/credit-et-dettes-efficace.svg'
+        logo: '/images/logo/budget-efficace.svg'
     }),
     defineWebSite({
         name: 'Budget Efficace'
